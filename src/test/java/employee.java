@@ -1,6 +1,6 @@
-class giEmployee {
-    protected String name;
-    protected double salary;
+class Employee {
+    private String name;
+    private double salary;
 
     public Employee(String name, double salary) {
         this.name = name;
@@ -12,6 +12,7 @@ class giEmployee {
         System.out.println("Salary: " + salary);
     }
 }
+
 
 class Manager extends Employee {
     private String department;
