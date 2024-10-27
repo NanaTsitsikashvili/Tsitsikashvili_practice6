@@ -15,4 +15,10 @@ public static void main(String[] args) {
     car3.displayDetails();
     car4.displayDetails();
     car5.displayDetails();
+
+    Dog dog = new Dog("Canis lupus familiaris", "Carnivore", "Labrador Retriever");
+    dog.displayInfo();
+
+    Rectangle rectangle = new Rectangle(5, 10);
+    rectangle.area();
 }
