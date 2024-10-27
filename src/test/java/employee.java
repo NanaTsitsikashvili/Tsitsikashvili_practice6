@@ -22,7 +22,7 @@ class Manager extends Employee {
         this.department = department;
     }
 
-    @Override
+
     public void displayDetails() {
         super.displayDetails();
         System.out.println("Department: " + department);
