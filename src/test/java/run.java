@@ -16,9 +16,17 @@ public static void main(String[] args) {
     car4.displayDetails();
     car5.displayDetails();
 
-    Dog dog = new Dog("Canis lupus familiaris", "Carnivore", "Labrador Retriever");
+    Dog dog = new Dog("Toy", "vegetable", "toy poodle");
     dog.displayInfo();
+
 
     Rectangle rectangle = new Rectangle(5, 10);
     rectangle.area();
+
+
+    Employee emp = new Employee("Tamar Ghlonti", 50000);
+    emp.displayDetails();
+
+    Manager mgr = new Manager("Ketevan Ghlonti", 80000, "Quality Assurance");
+    mgr.displayDetails();
 }
