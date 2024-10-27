@@ -35,6 +35,6 @@ public static void main(String[] args) {
     System.out.println(); // Blank line for spacing
 
 
-    Manager mgr = new Manager("Ketevan Ghlonti", 80000, "Quality Assurance");
+    Manager mgr = new Manager("Ketevani Ghlonti", 80000, "Quality Assurance");
     mgr.displayDetails();
 }
